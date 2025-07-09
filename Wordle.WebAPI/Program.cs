@@ -139,7 +139,10 @@ builder.Services.AddScoped<IGuessRepository, EFGuessRepository>();
 builder.Services.AddScoped<IScoreRepository, EfScoreRepository>();
 builder.Services.AddScoped<IUnitOfWork, EfUnitOfWork>();
 
-// JWT Authentication
+//JWT
+var jwtKey = builder.Configuration["PROD_JWT_KEY"]
+             ?? builder.Configuration["Jwt:Key"]; 
+
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer("Bearer", options =>
     {
@@ -153,9 +156,10 @@ builder.Services.AddAuthentication("Bearer")
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+                Encoding.UTF8.GetBytes(jwtKey!))
         };
     });
+
 
 // JSON Converter
 builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =>
