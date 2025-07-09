@@ -1,0 +1,15 @@
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\bin\Debug\net9.0\Wordle.Application.deps.json
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\bin\Debug\net9.0\Wordle.Application.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\bin\Debug\net9.0\Wordle.Application.pdb
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\bin\Debug\net9.0\Wordle.Domain.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\bin\Debug\net9.0\Wordle.Domain.pdb
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\Wordle.Application.csproj.AssemblyReference.cache
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\Wordle.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\Wordle.Application.AssemblyInfoInputs.cache
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\Wordle.Application.AssemblyInfo.cs
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\Wordle.Application.csproj.CoreCompileInputs.cache
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\Wordle.A.7E77E75F.Up2Date
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\Wordle.Application.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\refint\Wordle.Application.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\Wordle.Application.pdb
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Application\obj\Debug\net9.0\ref\Wordle.Application.dll

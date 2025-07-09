@@ -1,0 +1,17 @@
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\bin\Debug\net9.0\Wordle.Infrastructure.deps.json
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\bin\Debug\net9.0\Wordle.Infrastructure.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\bin\Debug\net9.0\Wordle.Infrastructure.pdb
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\bin\Debug\net9.0\Wordle.Application.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\bin\Debug\net9.0\Wordle.Domain.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\bin\Debug\net9.0\Wordle.Application.pdb
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\bin\Debug\net9.0\Wordle.Domain.pdb
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\Wordle.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\Wordle.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\Wordle.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\Wordle.Infrastructure.AssemblyInfo.cs
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\Wordle.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\Wordle.I.72D22F01.Up2Date
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\Wordle.Infrastructure.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\refint\Wordle.Infrastructure.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\Wordle.Infrastructure.pdb
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Infrastructure\obj\Debug\net9.0\ref\Wordle.Infrastructure.dll

@@ -1,0 +1,11 @@
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\bin\Debug\net9.0\Wordle.Domain.deps.json
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\bin\Debug\net9.0\Wordle.Domain.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\bin\Debug\net9.0\Wordle.Domain.pdb
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\obj\Debug\net9.0\Wordle.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\obj\Debug\net9.0\Wordle.Domain.AssemblyInfoInputs.cache
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\obj\Debug\net9.0\Wordle.Domain.AssemblyInfo.cs
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\obj\Debug\net9.0\Wordle.Domain.csproj.CoreCompileInputs.cache
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\obj\Debug\net9.0\Wordle.Domain.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\obj\Debug\net9.0\refint\Wordle.Domain.dll
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\obj\Debug\net9.0\Wordle.Domain.pdb
+C:\Users\EREN\Desktop\Yazılım\Wordle\Wordle.Domain\obj\Debug\net9.0\ref\Wordle.Domain.dll
