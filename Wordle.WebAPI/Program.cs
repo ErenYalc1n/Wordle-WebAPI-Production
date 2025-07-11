@@ -58,7 +58,7 @@ builder.Services.AddScoped<IEMailService, SmtpEmailService>();
 // Controller
 builder.Services.AddControllers();
 
-// CORS – Her yerden eriþim saðlamak için (yayýnda gerekebilir, sýkýlaþtýrýlabilir)
+// CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", builder =>
@@ -171,14 +171,14 @@ builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 
-// App baþlat
+// App start
 Log.Information("Uygulama baþlatýlýyor...");
 var app = builder.Build();
 
-// Middleware ve sýralamalar
+// Middleware
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
-// Swagger - hem dev hem prod'da açýk
+// Swagger - dev & prod
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
