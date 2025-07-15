@@ -22,25 +22,54 @@ using Wordle.Infrastructure.Mail;
 using Wordle.Infrastructure.Repositories;
 using Wordle.Infrastructure.Security;
 using Wordle.WebAPI.Middlewares;
-using Npgsql.EntityFrameworkCore.PostgreSQL;
-
+using Serilog.Sinks.PostgreSQL;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Serilog konfigürasyonu
-Log.Logger = new LoggerConfiguration()
+var loggerConfig = new LoggerConfiguration()
     .MinimumLevel.Warning()
     .WriteTo.Console()
-    .WriteTo.MSSqlServer(
-        connectionString: builder.Configuration.GetConnectionString("DefaultConnection"),
-        sinkOptions: new MSSqlServerSinkOptions
-        {
-            TableName = "Logs",
-            AutoCreateSqlTable = true
-        })
-    .Enrich.FromLogContext()
-    .CreateLogger();
+    .Enrich.FromLogContext();
 
+var env = builder.Environment;
+
+if (env.IsDevelopment())
+{
+    var sqlConn = builder.Configuration.GetConnectionString("DefaultConnection");
+    if (!string.IsNullOrWhiteSpace(sqlConn))
+    {
+        loggerConfig = loggerConfig.WriteTo.MSSqlServer(
+            connectionString: sqlConn,
+            sinkOptions: new MSSqlServerSinkOptions
+            {
+                TableName = "Logs",
+                AutoCreateSqlTable = true
+            });
+    }
+}
+else if (env.IsProduction())
+{
+    var pgConn = builder.Configuration.GetConnectionString("PostgresConnection");
+    if (!string.IsNullOrWhiteSpace(pgConn))
+    {
+        loggerConfig = loggerConfig.WriteTo.PostgreSQL(
+            connectionString: pgConn,
+            tableName: "logs",
+            needAutoCreateTable: true, // Render için genelde true kullanýlýyor
+            columnOptions: new Dictionary<string, ColumnWriterBase>
+            {
+                { "message", new RenderedMessageColumnWriter() },
+                { "message_template", new MessageTemplateColumnWriter() },
+                { "level", new LevelColumnWriter() },
+                { "time_stamp", new TimestampColumnWriter() },
+                { "exception", new ExceptionColumnWriter() },
+                { "properties", new LogEventSerializedColumnWriter() }
+            });
+    }
+}
+
+Log.Logger = loggerConfig.CreateLogger();
 builder.Host.UseSerilog();
 
 // AppSettings okuma

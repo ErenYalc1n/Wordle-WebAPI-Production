@@ -345,6 +345,10 @@
               "target": "Package",
               "version": "[8.2.0, )"
             },
+            "Serilog.Sinks.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[9.0.1, )"

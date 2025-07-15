@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wordle.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b968e797d6169b831b28a9c4cdb9f719317224b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25f9c3f03dbb9a1eb8e355dc627f9416013e9141")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wordle.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wordle.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
