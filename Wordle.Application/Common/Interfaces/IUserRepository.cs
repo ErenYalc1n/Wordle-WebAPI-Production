@@ -17,6 +17,7 @@ namespace Wordle.Application.Common.Interfaces
         Task<User?> GetByIdentifierAsync(string identifier);
         Task<User?> GetByRefreshTokenAsync(string refreshToken);
         Task DeleteAsync(User user);
+        Task<int> CountAsync();
 
     }
 }

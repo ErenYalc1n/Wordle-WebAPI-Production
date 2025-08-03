@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w5S3HjJy3JM=",
+  "dgSpecHash": "WCMqzaQ6lQI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Infrastructure\\Wordle.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Infrastructure\\Wordle.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EREN\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\EREN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

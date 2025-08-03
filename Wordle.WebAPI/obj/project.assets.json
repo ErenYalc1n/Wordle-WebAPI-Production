@@ -6902,11 +6902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.WebAPI\\Wordle.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.WebAPI\\Wordle.WebAPI.csproj",
       "projectName": "Wordle.WebAPI",
-      "projectPath": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.WebAPI\\Wordle.WebAPI.csproj",
+      "projectPath": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.WebAPI\\Wordle.WebAPI.csproj",
       "packagesPath": "C:\\Users\\EREN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6927,11 +6927,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Application\\Wordle.Application.csproj": {
-              "projectPath": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Application\\Wordle.Application.csproj"
+            "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Application\\Wordle.Application.csproj": {
+              "projectPath": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Application\\Wordle.Application.csproj"
             },
-            "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Infrastructure\\Wordle.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Infrastructure\\Wordle.Infrastructure.csproj"
+            "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Infrastructure\\Wordle.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Infrastructure\\Wordle.Infrastructure.csproj"
             }
           }
         }

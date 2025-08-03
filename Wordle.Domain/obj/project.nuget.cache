@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wuXmHqkl4Y=",
+  "dgSpecHash": "lQREq1l7I44=",
   "success": true,
-  "projectFilePath": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Domain\\Wordle.Domain.csproj",
+  "projectFilePath": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Domain\\Wordle.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

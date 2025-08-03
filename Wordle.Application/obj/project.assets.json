@@ -787,11 +787,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Application\\Wordle.Application.csproj",
+      "projectUniqueName": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Application\\Wordle.Application.csproj",
       "projectName": "Wordle.Application",
-      "projectPath": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Application\\Wordle.Application.csproj",
+      "projectPath": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Application\\Wordle.Application.csproj",
       "packagesPath": "C:\\Users\\EREN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Application\\obj\\",
+      "outputPath": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -812,8 +812,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Domain\\Wordle.Domain.csproj": {
-              "projectPath": "C:\\Users\\EREN\\Desktop\\Yazılım\\Wordle\\Wordle.Domain\\Wordle.Domain.csproj"
+            "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Domain\\Wordle.Domain.csproj": {
+              "projectPath": "C:\\Users\\EREN\\Source\\Repos\\Wordle-WebAPI-Production\\Wordle.Domain\\Wordle.Domain.csproj"
             }
           }
         }

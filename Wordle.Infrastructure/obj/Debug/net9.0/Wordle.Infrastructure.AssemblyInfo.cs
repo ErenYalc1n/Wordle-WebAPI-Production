@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wordle.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b968e797d6169b831b28a9c4cdb9f719317224b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c06322ca1711ab5f363dcb9537447b9fff59227")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wordle.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wordle.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

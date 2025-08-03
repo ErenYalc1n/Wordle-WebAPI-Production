@@ -43,6 +43,9 @@ public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, A
 
         var passwordHash = _passwordHasher.Hash(request.Password);
 
+        var userCount = await _userRepository.CountAsync();
+        var roleToAssign = userCount == 0 ? Role.Admin : Role.UnverifiedPlayer;
+
         var user = new User
         {
             Id = Guid.NewGuid(),
@@ -51,12 +54,13 @@ public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, A
             Nickname = request.Nickname,
             FirstName = request.FirstName,
             LastName = request.LastName,
-            Role = Role.UnverifiedPlayer,
+            Role = roleToAssign,
             IsKvkkAccepted = request.IsKvkkAccepted,
             IsEmailConfirmed = false,
             EmailVerificationCode = new Random().Next(100000, 999999).ToString(),
             EmailVerificationExpiresAt = DateTime.UtcNow.AddMinutes(15)
         };
+
 
         await _userRepository.AddAsync(user);
 

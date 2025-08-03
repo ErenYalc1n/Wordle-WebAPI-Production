@@ -67,5 +67,10 @@ namespace Wordle.Infrastructure.Repositories
             _context.Users.Remove(user);
             return Task.CompletedTask;
         }
+        public Task<int> CountAsync()
+        {
+            return _context.Users.CountAsync();
+        }
+
     }
 }
