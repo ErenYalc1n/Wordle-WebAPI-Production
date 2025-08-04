@@ -54,7 +54,8 @@ public class VerifyEmailCommandHandler : IRequestHandler<VerifyEmailCommand, Aut
             throw new ValidationAppException("Geçersiz ya da süresi dolmuş doğrulama kodu.");
         }
 
-        user.Role = Role.Player;
+        if (user.Role == Role.UnverifiedPlayer)
+            user.Role = Role.Player;
         user.IsEmailConfirmed = true;
         user.EmailVerificationCode = null;
         user.EmailVerificationExpiresAt = null;

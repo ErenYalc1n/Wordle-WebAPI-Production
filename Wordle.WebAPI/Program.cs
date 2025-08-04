@@ -56,7 +56,7 @@ else if (env.IsProduction())
         loggerConfig = loggerConfig.WriteTo.PostgreSQL(
             connectionString: pgConn,
             tableName: "logs",
-            needAutoCreateTable: true, // Render için genelde true kullanýlýyor
+            needAutoCreateTable: true,
             columnOptions: new Dictionary<string, ColumnWriterBase>
             {
                 { "message", new RenderedMessageColumnWriter() },
